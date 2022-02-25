@@ -13,4 +13,17 @@ public class DemoRestController {
         return "Hello World! Time on server is " + LocalDateTime.now();
     }
 
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+        return "run run run";
+    }
+
+    @GetMapping("/fortune")
+    public String getDailyFortune() {
+        return "heres a fortune";
+    }
+
 }
+
+
+
