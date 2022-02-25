@@ -9,6 +9,7 @@
       "name": "management.info.env.enabled",
       "type": "java.lang.String",
       "description": "Description for management.info.env.enabled."
-    }
+    },
+
   ]
 }
